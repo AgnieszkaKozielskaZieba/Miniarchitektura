@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>Miniarchitektura</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles.css">
@@ -94,60 +95,60 @@
       <div class="col-md-6 col-lg-4 mt-3">
         <div class="card"> 
           <img src="imgs/Yogi1100/obudowa_smietnika.jpg" class="card-img-top">
-          <div class="card-body d-flex align-items-start flex-column">
+          <div class="card-body"> <!-- d-flex align-items-start flex-column -->
             <h5 class="card-title">Obudowa śmietnikowa Yogi 1100</h5>
             <p class="card-text">Obudowa śmietnikowa na typowy kontener 1100 l. Możliwość personalizacji opisu obudowy.</p>
-            <a href="yogi1100.html" class="btn btn-primary mt-auto">Więcej</a>
+            <div class="moreButton"><a href="yogi1100.html" class="btn btn-primary">Więcej</a></div>
           </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 mt-3">
         <div class="card"> 
           <img src="imgs/Yogi240/obudowa_smietnika_240.jpg" class="card-img-top">
-          <div class="card-body d-flex align-items-start flex-column">
+          <div class="card-body">
             <h5 class="card-title">Obudowa śmietnikowa Yogi 240</h5>
             <p class="card-text">Obudowa śmietnikowa na typowy kontener 240 oraz 120 l. Możliwość personalizacji opisu obudowy.</p>
-            <a href="yogi240.html" class="btn btn-primary mt-auto">Więcej</a>
+            <div class="moreButton"><a href="yogi240.html" class="btn btn-primary">Więcej</a></div>
           </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 mt-3">
         <div class="card"> 
           <img src="imgs/YogiZ/perspektywa2.jpg" class="card-img-top">
-          <div class="card-body d-flex align-items-start flex-column">
+          <div class="card-body">
             <h5 class="card-title">Zestawy obudów śmietnikowych</h5>
             <p class="card-text">Różne konfiguracje obudów Yogi 1100 oraz Yogi 240. Przystosowane do segregacji śmieci w większych obiektach i wspólnotach mieszkaniowych.</p>
-            <a href="yogiZ.html" class="btn btn-primary mt-auto">Więcej</a>
+            <div class="moreButton"><a href="yogiZ.html" class="btn btn-primary">Więcej</a></div>
           </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 mt-3">
         <div class="card"> 
           <img src="imgs/YogiLS/gazy_tech_L5.jpg" class="card-img-top">
-          <div class="card-body d-flex align-items-start flex-column">
+          <div class="card-body">
             <h5 class="card-title">Obudowa na butle techniczne YOGI TECH Max</h5>
             <p class="card-text">Duża obudowa na butle techniczne. Możliwość personalizacji opisu obudowy.</p>
-            <a href="yogiTechMax.html" class="btn btn-primary mt-auto">Więcej</a>
+            <div class="moreButton"><a href="yogiTechMax.html" class="btn btn-primary">Więcej</a></div>
           </div>
         </div> 
       </div> 
       <div class="col-md-6 col-lg-4 mt-3">
         <div class="card"> 
           <img src="imgs/YogiLS/gazy_tech_S1.jpg" class="card-img-top">
-          <div class="card-body d-flex align-items-start flex-column">
+          <div class="card-body">
             <h5 class="card-title">Obudowa na butle techniczne YOGI TECH Mini</h5>
             <p class="card-text">Mała obudowa na butle techniczne. Możliwość personalizacji opisu obudowy.</p>
-            <a href="yogi.html" class="btn btn-primary mt-auto">Więcej</a>
+            <div class="moreButton"><a href="yogi.html" class="btn btn-primary">Więcej</a></div>
           </div>
         </div> 
       </div> 
       <div class="col-md-6 col-lg-4 mt-3">
         <div class="card"> 
           <img src="imgs/YogiLS/gazy_tech_Z1.jpg" class="card-img-top">
-          <div class="card-body d-flex align-items-start flex-column">
+          <div class="card-body">
             <h5 class="card-title">Zestawy obudów na butle techniczne</h5>
             <p class="card-text">Różne konfiguracje obudów YOGI TECH Max oraz YOGI TECH Mini. Możliwość personalizacji opisu obudowy.</p>
-            <a href="yogi.html" class="btn btn-primary mt-auto">Więcej</a>
+            <div class="moreButton"><a href="yogi.html" class="btn btn-primary">Więcej</a></div>
           </div>
         </div>
       </div>
@@ -187,8 +188,12 @@ $('#carouselExample').on('slide.bs.carousel', function (e) {
     }
 });
 
-$("#header").load("header.html");
 
+
+</script>
+
+<script type="text/javascript">
+  $("#header").load("header.html");
 </script>
 
 </body>

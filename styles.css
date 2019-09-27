@@ -176,3 +176,13 @@ img{
     }
 
 }
+
+.btn.btn-primary {
+    position: absolute;
+    bottom: 0;
+    margin-bottom:15px;
+}
+
+.moreButton{
+    height: 30px;
+}
